@@ -1,0 +1,23 @@
+{
+	"Console Log":{
+		"prefix": "go",
+		"description": "template for cp",
+		"body": [
+			"#include <bits/stdc++.h>"
+			"using namespace std;"
+			"#define mod 1000000007"
+			"#define all(n)      (n).begin(), (n).end()"
+			"#define ll long long"
+			"#define ull unsigned long long int"
+
+
+			"void solve() {}"
+			"int main(){"
+			"int T; cin >> T;"
+			"while(T--)"
+			"solve();"
+			"return 0;}"
+
+		],
+	}
+}
