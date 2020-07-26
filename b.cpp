@@ -6,8 +6,39 @@ using namespace std;
 #define ull unsigned long long int
 
 void solve() {
+	ll n; cin >> n;
+	vector<ll> a(n, 0);
+	vector<ll> b(n, 0);
+	for (int i = 0; i < n; i++) {
+		cin >> a[i];
+	}
+	for (int i = 0; i < n; i++) {
+		cin >> b[i];
+	}
 
-	cout << "hey\n";
+	sort(all(a));
+	sort(all(b));
+
+	ll ans = -1;
+	for (int i = 0; i < n; i++) {
+		if (a[i] != b[i]) {
+			ans += min(a[i], b[i]);
+		}
+	}
+	cout << ans << '\n';
+
+
+
+
+	// for (int i = 0; i < n; i++) {
+	// 	cout <<  a[i] << " ";
+	// }
+	// cout << '\n';
+	// for (int i = 0; i < n; i++) {
+	// 	cout <<  b[i] << " ";
+	// }
+	// cout << '\n';
+
 
 }
 
