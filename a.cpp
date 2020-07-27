@@ -7,11 +7,13 @@ using namespace std;
 
 void solve() {
 
+	int n; cin >> n;
+	cout << "hey\n";
+
 }
 
 
 int main () {
-
 
 #ifndef ONLINE_JUDGE
 	freopen ("input.txt", "r", stdin);
@@ -21,7 +23,10 @@ int main () {
 	cin.tie(0);
 
 	//Write from here.
-	solve();
+	int T;
+	cin >> T;
+	while (T--)
+		solve();
 
 	return 0;
 }
