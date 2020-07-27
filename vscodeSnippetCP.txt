@@ -1,5 +1,5 @@
 {
-	"Console Log":{
+	"Console Log": {
 		"prefix": "go",
 		"description": "template for cp",
 		"body": [
@@ -11,13 +11,22 @@
 			"#define ull unsigned long long int"
 
 
-			"void solve() {}"
+			"void solve() {"
+			"	"
+			"}"
 			"int main(){"
-			"int T; cin >> T;"
-			"while(T--)"
-			"solve();"
-			"return 0;}"
-
+			"	ios::sync_with_stdio(0);"
+			"	cin.tie(0);"
+			"	//Starts here , "
+			"	//Machayenge!	"
+			"				"
+			"	int T; cin >> T;"
+			"	while(T--){"
+			"		solve();"
+			"	}"
+			"	return 0;"
+			"			"
+			"}"
 		],
 	}
 }
